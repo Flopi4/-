@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-agents"
+version = "0.1.0"
+description = "AI Агенти з Google ADK"
+authors = ["Maksym Protsaka"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.13,<4.0.0"
+google-adk = "^0.1.0"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
